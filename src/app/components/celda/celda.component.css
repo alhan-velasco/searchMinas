@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ddd;
+    border: 1.01px solid #ddd;
     font-weight: bold;
     cursor: pointer;
   }
