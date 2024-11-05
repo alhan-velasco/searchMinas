@@ -1,6 +1,5 @@
 <div class="cell" (click)="revealCell()">
     <span *ngIf="cell.isRevealed">
-      <!-- Mostrar el contenido de la celda -->
       <ng-container *ngIf="cell.isMine">💣</ng-container>
       <ng-container *ngIf="!cell.isMine && cell.neighboringMines > 0">
         {{ cell.neighboringMines }}

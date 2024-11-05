@@ -17,8 +17,6 @@ export class CeldaComponent {
       this.buscaminasService.gameOver();
     } else {
       this.buscaminasService.revealAdjacentCells(this.cell.row, this.cell.col);
-      
-      // Verificar si se ha ganado el juego
       if (this.buscaminasService.checkVictory()) {
         alert('¡Felicidades, has ganado!');
       }
