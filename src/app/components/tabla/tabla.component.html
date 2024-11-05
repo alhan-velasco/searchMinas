@@ -1,0 +1,6 @@
+<div class="board">
+    <div *ngFor="let row of board">
+      <app-celda *ngFor="let cell of row" [cell]="cell"></app-celda>
+    </div>
+  </div>
+  
